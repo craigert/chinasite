@@ -1,0 +1,63 @@
+name = Software Responsive Theme
+description = Software Responsive Theme<br/>Developed by <a href="http://www.zymphonies.com">Zymphonies</a> & Designed by <a href="http://www.freebiezz.com">FreeBiezz</a>.<br/>Contact us for Drupal Design & Development <a href="mailto:info@zymphonies.com">info@zymphonies.com</a> 
+core = 7.x
+
+engine = phptemplate
+stylesheets[all][] = css/font-awesome.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/bootstrap.css
+stylesheets[all][] = css/landesk.css
+stylesheets[all][] = css/media.css
+scripts[] = js/vendor/vimeo.ga.min.js
+scripts[] = js/vendor/jquery.magnific-popup.js
+scripts[] = js/vendor/bootstrap.js
+scripts[] = js/vendor/slick.min.js
+scripts[] = js/skrollr.min.js
+scripts[] = js/main.js
+scripts[] = js/magnific.js
+scripts[] = js/vendor/css_browser_selector.js
+scripts[] = js/custom.js
+scripts[] = js/superfish.js
+
+regions[header_top_section]	= Header Top Section
+regions[user_menu]  	 	= User menu
+regions[search]  	  	 	= Search
+regions[slideshow]       	= Slideshow
+regions[top_first]       	= Top First
+regions[content]         	= Content
+regions[bottom_widget_1] 	= Bottom widget 1
+regions[bottom_widget_2] 	= Bottom widget 2
+regions[bottom_widget_3] 	= Bottom widget 3
+regions[clients]    	 	= Clients
+regions[footer_first]    	= First Bottom
+regions[footer_second]   	= Second Bottom
+regions[footer_third]    	= Third Bottom
+regions[footer_forth]    	= Forth Bottom
+regions[footer_section]	 	= Footer Section
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+settings[breadcrumbs]  = 1
+settings[social_links]  = 1
+settings[twitter_url] = "https://twitter.com/zymphonies"
+settings[facebook_url] = "https://www.facebook.com/zymphonies"
+settings[gplus_profile_url] = "https://plus.google.com/u/1/+ZymphoniesTechnologies/"
+settings[linkedin_profile_url] = "https://www.linkedin.com/company/zymphonies"
+settings[pinterest_profile_url] = "http://www.pinterest.com/zymphonies/"
+settings[youtube_profile_url] = "http://www.youtube.com"
+
+
+; Information added by Drupal.org packaging script on 2015-03-19
+version = "7.x-1.1"
+core = "7.x"
+project = "software_responsive_theme"
+datestamp = "1426787539"
+
